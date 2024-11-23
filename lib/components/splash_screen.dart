@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen>
         _controller.forward().then((_) {
           Navigator.of(context).pushReplacement(
               MaterialPageRoute(builder: (_) => const Homepage()));
-        });
+        },);
       },
     );
   }
