@@ -1,3 +1,4 @@
+import 'package:baby_shop_hub/components/custom_bottom_navbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hugeicons/hugeicons.dart';
@@ -135,6 +136,7 @@ class _ProfileState extends State<Profile> {
           ),
         ],
       ),
+      bottomNavigationBar: CustomBottomNavBar(),
     );
   }
 }
